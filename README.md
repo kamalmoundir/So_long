@@ -1,56 +1,3 @@
-<<<<<<< HEAD
-# So_long
-
-So_long is a graphical project in C that introduces students to the basics of game development using the MiniLibX library. The objective is to create a simple 2D game where a player can navigate through a map, collecting items, avoiding enemies, and reaching an exit.
-
-## Table of Contents
-
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Requirements
-
-- gcc
-- make
-- X11 include files (package xorg)
-- XShm extension (package libxext-dev)
-- Utility functions from BSD systems (package libbsd-dev)
-- MiniLibX library
-
-For MacOS:
-- [Xquartz](https://www.xquartz.org/)
-
-## Installation
-
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/kamalmoundir/so_long.git
-    cd so_long
-    ```
-
-2. Install the required packages:
-    ```sh
-    sudo apt-get install gcc make xorg libxext-dev libbsd-dev
-    ```
-
-3. Compile the project:
-    ```sh
-    make
-    ```
-
-## Usage
-
-To run the game, use the following command:
-```sh
-./so_long path_to_map_file
-
-
-
-=======
 **Overview**
 
 Solong is a 2D game project developed as part of the 42 curriculum. The goal of this project is to create a simple yet engaging game using the MiniLibX library, which is a minimalistic graphics library provided by 42. The game involves a player navigating through a map, collecting items, and reaching the exit while avoiding enemies.
@@ -128,7 +75,6 @@ Example map file (map1.ber):
 
 **Project Structure**
 ```
->>>>>>> c7a4fb5c367eb08c7b2fadbe252b95a201f8556a
 So_long/
 ├── images/
 ├── include/
@@ -151,9 +97,6 @@ So_long/
 │   └── window.c
 ├── LICENSE
 ├── Makefile
-<<<<<<< HEAD
-└── README.md
-=======
 └── README.m
 ```
 
@@ -175,4 +118,3 @@ If you have any questions or feedback, feel free to reach out:
 GitHub: kamalmoundir
 Linikedin :https://www.linkedin.com/in/kamal-moundir
 Email: kmoundir@student.42malaga.com
->>>>>>> c7a4fb5c367eb08c7b2fadbe252b95a201f8556a
